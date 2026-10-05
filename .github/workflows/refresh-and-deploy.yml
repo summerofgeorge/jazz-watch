@@ -1,0 +1,76 @@
+name: Refresh, test and publish Jazz Watch
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * *' # Daily 08:17 UTC; 04:17 EDT / 03:17 EST.
+permissions:
+  contents: read
+concurrency:
+  group: jazz-watch-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.19.0
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm test
+      - run: pnpm refresh
+      - run: pnpm build
+      - run: node scripts/check-dist.mjs
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:browser
+      - name: Preserve verified data for bounded stale retention
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events.json dist/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh Jazz Watch verified calendar"
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+          retention-days: 1
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Publish static site
+        id: deployment
+        uses: actions/deploy-pages@v4
+  health:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: node scripts/health.mjs
+

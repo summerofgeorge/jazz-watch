@@ -1,0 +1,18 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';
+import {smallsCandidates,parseSmallsEvent,freeSmallsPolicy} from '../scripts/adapters.mjs';
+const fixture=async name=>readFile(new URL('./fixtures/'+name,import.meta.url),'utf8');
+const html=await fixture('smalls-list.html'),detail=await fixture('smalls-event.html'),policy=freeSmallsPolicy(await fixture('smalls-policy.html'));
+const source={id:'smalls',timezone:'America/New_York',stream_url:'https://www.smallslive.com/livestream/'};
+const candidate=smallsCandidates(html,source).find(c=>c.title==='Alexander McCabe Quartet');
+const liveFixture=await fixture('smalls-live.html'),tomorrowFixture=await fixture('smalls-tomorrow.html');
+test('Observed live layout uses event-specific Live Now and official player',()=>{const c=smallsCandidates(html,source).find(c=>c.title.includes('Ryo Sasaki'));const rows=parseSmallsEvent(liveFixture,c,source,policy);assert.equal(rows.length,1);assert.equal(rows[0].start,'2026-10-04T18:00:00.000Z');});
+test('Observed tomorrow announcement validates full broadcast date',()=>{const c=smallsCandidates(html,source).find(c=>c.title==='Joe Farnsworth Quartet');const rows=parseSmallsEvent(tomorrowFixture,c,source,policy);assert.equal(rows.length,2);assert.equal(rows[0].start,'2026-10-05T22:00:00.000Z');assert.throws(()=>parseSmallsEvent(tomorrowFixture.replace('10/05/2026','10/06/2026'),c,source,policy));});
+test('Observed official fixture yields separate sets',()=>{const rows=parseSmallsEvent(detail,candidate,source,policy);assert.equal(rows.length,2);assert.equal(rows[0].start,'2026-10-04T22:00:00.000Z');assert.equal(rows[1].start,'2026-10-04T23:30:00.000Z');assert.equal(rows[0].free,true);});
+test('Mezzrow adapter filters venue and vinyl playback',()=>{const c=smallsCandidates(html,{id:'mezzrow'});assert.ok(c.length);assert.ok(c.every(e=>!/vinyl/i.test(e.title)));assert.ok(c.some(e=>e.title==='June Cavlan Trio'));});
+test('Missing stream statement is not a verified broadcast',()=>assert.deepEqual(parseSmallsEvent(detail.replace('This event will be streaming live at','In-person doors open at'),candidate,source,policy),[]));
+test('Missing free policy stops collection',()=>assert.throws(()=>freeSmallsPolicy('<p>Purchase tickets to watch</p>')));
+test('Missing source structure throws instead of empty success',()=>assert.throws(()=>smallsCandidates('<h1>Access denied</h1>',source)));
+test('Healthy explicit empty schedule accepted',()=>assert.deepEqual(smallsCandidates('<section class="event-stripe">No shows scheduled</section>',source),[]));
+test('Wrong metadata date and mismatched clock fail closed',()=>{assert.throws(()=>parseSmallsEvent(detail.replace('October 4, 2026','October 5, 2026'),candidate,source,policy));assert.throws(()=>parseSmallsEvent(detail.replace('at 6:00PM','at 7:00PM'),candidate,source,policy));});
+test('Cancellation on event page removes listing',()=>assert.deepEqual(parseSmallsEvent(detail.replace('>Alexander McCabe Quartet<','>Canceled: Alexander McCabe Quartet<'),candidate,source,policy),[]));
+test('Overnight explicit interval rolls end into next day',()=>{const d=detail.replace('Sets at 6:00 PM &amp; 7:30 PM','From 11:55 PM - 4:00 AM').replace('at 6:00PM','at 11:55PM');const c={...candidate,schedule:'Sun Oct 04 From 11:55 PM - 4:00 AM'};const [e]=parseSmallsEvent(d,c,source,policy);assert.equal(e.start,'2026-10-05T03:55:00.000Z');assert.equal(e.end,'2026-10-05T08:00:00.000Z');});

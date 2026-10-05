@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "reviews": [
+    {
+      "source": "hancock",
+      "reviewer": "Codex — official-page review",
+      "checked_at": "2026-10-04T21:28:58.988Z",
+      "scope_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
+      "events": [
+        {
+          "title": "International Jazz Vocals Competition · Semifinals",
+          "start": "2026-10-10T11:00:00.000Z",
+          "end": "2026-10-10T15:30:00.000Z",
+          "type": "Vocal jazz",
+          "program": "Semifinalists perform with Carmen Staaf, Ben Williams and Kendrick Scott. Times are local to Paris.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. In-person admission is separate.",
+          "event_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
+          "stream_url": "https://hancockinstitute.org/",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
+            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
+            "free_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/"
+          }
+        },
+        {
+          "title": "International Jazz Vocals Competition · Finals & All-Star Gala",
+          "start": "2026-10-11T17:30:00.000Z",
+          "end": null,
+          "type": "Vocal jazz",
+          "program": "Competition finals and an All-Star Gala featuring Herbie Hancock and guest artists. Times are local to Paris.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. In-person admission is separate.",
+          "event_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
+          "stream_url": "https://hancockinstitute.org/",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
+            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
+            "free_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/"
+          }
+        }
+      ]
+    },
+    {
+      "source": "cu-boulder",
+      "reviewer": "Codex — official-page review",
+      "checked_at": "2026-10-04T21:28:58.988Z",
+      "scope_url": "https://cupresents.org/show-details/concert-jazz-ensemble-fall-2026-concert",
+      "events": [
+        {
+          "title": "Concert Jazz Ensemble · Fall Concert",
+          "start": "2026-10-16T01:30:00.000Z",
+          "end": null,
+          "type": "Big band",
+          "program": "The Thompson Jazz Studies Program’s big band. Select Grusin Music Hall.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. In-person admission is separate.",
+          "event_url": "https://cupresents.org/show-details/concert-jazz-ensemble-fall-2026-concert",
+          "stream_url": "https://cupresents.org/livestreaming",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
+            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream_url": "https://cupresents.org/show-details/concert-jazz-ensemble-fall-2026-concert",
+            "free_url": "https://cupresents.org/livestreaming"
+          }
+        },
+        {
+          "title": "Thompson Jazz Studies Combos · Grusin Music Hall",
+          "start": "2026-10-31T01:30:00.000Z",
+          "end": null,
+          "type": "Small ensemble",
+          "program": "Only the Grusin Music Hall performances are streamed; the simultaneous Ensemble Hall concert is excluded.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. In-person admission is separate.",
+          "event_url": "https://cupresents.org/show-details/thompson-jazz-studies-combos-fall-2026-concert-in-grusin-and-ensemble-hall",
+          "stream_url": "https://cupresents.org/livestreaming",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
+            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream_url": "https://cupresents.org/show-details/thompson-jazz-studies-combos-fall-2026-concert-in-grusin-and-ensemble-hall",
+            "free_url": "https://cupresents.org/livestreaming"
+          }
+        },
+        {
+          "title": "Thompson Latin Jazz Ensemble · Fall Concert",
+          "start": "2026-11-06T02:30:00.000Z",
+          "end": null,
+          "type": "Latin jazz",
+          "program": "Caribbean and South American music and its ties to jazz. Select Grusin Music Hall.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. In-person admission is separate.",
+          "event_url": "https://cupresents.org/show-details/thompson-latin-jazz-ensemble-fall-2026-concert",
+          "stream_url": "https://cupresents.org/livestreaming",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
+            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream_url": "https://cupresents.org/show-details/thompson-latin-jazz-ensemble-fall-2026-concert",
+            "free_url": "https://cupresents.org/livestreaming"
+          }
+        }
+      ]
+    },
+    {
+      "source": "ku",
+      "reviewer": "Codex — official-page review",
+      "checked_at": "2026-10-04T21:28:58.988Z",
+      "scope_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/",
+      "events": [
+        {
+          "title": "KU Jazz Ensembles I, II, III",
+          "start": "2026-10-09T00:30:00.000Z",
+          "end": null,
+          "type": "Big band",
+          "program": "KU School of Music ensembles, live from the Lied Center.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. In-person admission is separate.",
+          "event_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/",
+          "stream_url": "https://lied.ku.edu/live/",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
+            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/",
+            "free_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/"
+          }
+        }
+      ]
+    }
+  ]
+}

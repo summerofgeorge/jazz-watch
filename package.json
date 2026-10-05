@@ -1,0 +1,20 @@
+{
+  "name": "jazz-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {"node": ">=24.16"},
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:browser": "node test/browser.mjs",
+    "check": "pnpm test && pnpm build && node scripts/check-dist.mjs",
+    "start": "node scripts/serve.mjs",
+    "review": "node scripts/review.mjs",
+    "health": "node scripts/health.mjs"
+  },
+  "dependencies": {"cheerio": "1.1.2"},
+  "devDependencies": {"@playwright/test": "1.58.2", "@axe-core/playwright": "4.11.1"}
+}
