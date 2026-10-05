@@ -1,0 +1,5 @@
+interface:
+  display_name: "Stringfest Streaming Roundup"
+  short_description: "Build verified free livestream calendars"
+  brand_color: "#BD292F"
+  default_prompt: "Use $stringfest-streaming-roundup to build another Stringfest-branded free livestream calendar with researched sources and GitHub Pages."

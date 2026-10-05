@@ -1,5 +1,5 @@
 import {readFile,readdir,stat} from 'node:fs/promises';import {resolve} from 'node:path';import assert from 'node:assert/strict';import {load} from 'cheerio';import {normalize} from './model.mjs';import {safeUrl} from '../src/core.js';
-const dir=resolve('dist'),files=await readdir(dir),expected=['.nojekyll','CNAME','404.html','about.html','app.js','core.js','coverage.html','events.json','index.html','sources.html','styles.css','support.html','watch.html'];
+const dir=resolve('dist'),files=await readdir(dir),expected=['.nojekyll','CNAME','404.html','about.html','app.js','analytics.js','core.js','coverage.html','events.json','index.html','logo-seal.png','logo-horizontal.png','share.js','sources.html','styles.css','support.html','watch.html'];
 assert.deepEqual(files.sort(),expected.sort(),'Unexpected deploy artifact files');
 let bytes=0;for(const file of files){const content=await readFile(dir+'/'+file);bytes+=(await stat(dir+'/'+file)).size;
 if(file.endsWith('.html')){

@@ -6,7 +6,7 @@ Approved destination: public `summerofgeorge/jazz-watch`, hosted on GitHub Pages
 
 The public [summerofgeorge/jazz-watch repository](https://github.com/summerofgeorge/jazz-watch) and GitHub Pages site were published October 5, 2026. [The first hosted workflow](https://github.com/summerofgeorge/jazz-watch/actions/runs/37339281383) passed build, deploy and health, including 60 tests, 28 layout/accessibility audits and two interaction suites. All seven HTML pages and the required data/assets respond at the custom domain.
 
-GitHub Pages is configured for `jazzwatch.stringfestanalytics.com`. A single CNAME was added in Bluehost: `jazzwatch` to `summerofgeorge.github.io`, TTL four hours. Google's public DNS confirms it. Existing records were not modified. GitHub has requested the TLS certificate; Enforce HTTPS and final HTTPS verification are pending issuance.
+GitHub Pages is configured for `jazzwatch.stringfestanalytics.com`. A single CNAME was added in Bluehost: `jazzwatch` to `summerofgeorge.github.io`, TTL four hours. Google's public DNS confirms it. Existing records were not modified. GitHub issued the TLS certificate on October 5. HTTPS returns 200 and Enforce HTTPS is enabled. The HTTP redirect is checked again after propagation.
 
 ## Recreating the deployment
 

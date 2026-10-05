@@ -97,7 +97,17 @@ ICS exports use CRLF, UTC timestamps, stable UIDs, escaped text, and 75-octet UT
 
 The requested [classical-live repository](https://github.com/summerofgeorge/classical-live) was inspected read-only before implementation: README, package.json, scripts/ingest.mjs, scripts/http.mjs, dist/index.html and dist/styles.css. GitHub tree revision observed: `49c3766a3a2db2f61fc4e8c6eee36f990077cb0a`. No changes were made to that repository. Jazz Watch is an independent project following its useful data-quality principles.
 
-No personal .agents/skills tree or Stringfest branding skill was accessible in this local executor. The existing Classical Watch styles provided the warm paper/dark ink/red reference. The six supplied Library attachment IDs could not be materialized because no Library tools/skill were exposed here; plugin discovery found no usable Library integration. No guessed URLs or cloud paths were used, and no logo was recreated. The permitted fallback is clean **Stringfest Analytics** text branding.
+No personal .agents/skills tree or Stringfest branding skill was accessible in this local executor. The existing Classical Watch styles provided the warm paper/dark ink/red reference. The six supplied Library attachment IDs could not be materialized because no Library tools/skill were exposed here; plugin discovery found no usable Library integration. No guessed URLs or cloud paths were used, and no logo was recreated. The later redesign uses the original seal and horizontal logo downloaded from the public ClassicalWatch site, with bytes and pixels verified. See skills/stringfest-streaming-roundup/references/branding.md for hashes and provenance. No logo was redrawn.
 
 Local executor reported Windows hostname `GJMSURFACETABLE`; the requested Surface2 alias was not independently confirmed. Source and dist are bundled in the local ZIP. A Library upload and confirmed library_file_id require a Library-enabled executor; none is claimed in this package.
 
+
+## Sharing and Analytics
+
+The redesigned pages retain Art Deco details and add the official Stringfest logos, George’s background, support introductions, expanded methodology, and editable set/calendar sharing. Sharing includes email, text, WhatsApp, X, Facebook, native share, clipboard fallback, stable set links, and an honest unavailable-set state.
+
+Google Analytics uses the separate JazzWatch property in the existing Stringfest Analytics account. See docs/analytics.md for configuration and privacy choices. Local and repository previews are excluded.
+
+## Reusable skill
+
+The validated personal-skill package is in skills/stringfest-streaming-roundup/. It captures evidence, branding, maintenance, sharing, testing and GitHub Pages practices for future roundups. It contains original branding assets but no live concert data or tracking ID. Invoke it by its SKILL.md path, or copy that folder into your personal Codex skills directory. Installation into the protected personal folder was denied by the local filesystem; the portable package is complete.
