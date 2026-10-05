@@ -1,47 +1,47 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T16:14:37.580Z",
+  "generated_at": "2026-10-05T16:25:02.857Z",
   "lookahead_days": 45,
   "stale_after_days": 14,
   "scope": "Selective free jazz livestreams; source publishing windows vary.",
   "collection": {
     "requests": 21,
     "request_limit": 60,
-    "response_bytes": 1420713,
-    "duration_ms": 137855
+    "response_bytes": 1420496,
+    "duration_ms": 138806
   },
   "sources": [
     {
       "source": "smalls",
       "status": "healthy",
       "count": 10,
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "requests": 9,
-      "duration_ms": 80359
+      "duration_ms": 80493
     },
     {
       "source": "mezzrow",
       "status": "healthy",
       "count": 8,
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "requests": 4,
-      "duration_ms": 39975
+      "duration_ms": 40167
     },
     {
       "source": "bop-stop",
       "status": "healthy",
       "count": 2,
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "requests": 6,
-      "duration_ms": 15167
+      "duration_ms": 15189
     },
     {
       "source": "city-of-asylum",
       "status": "healthy",
       "count": 5,
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "requests": 2,
-      "duration_ms": 2353
+      "duration_ms": 2956
     },
     {
       "source": "hancock",
@@ -101,7 +101,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -145,7 +145,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -187,7 +187,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -231,7 +231,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -273,7 +273,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -317,7 +317,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -359,7 +359,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -403,7 +403,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -449,7 +449,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -491,7 +491,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -535,7 +535,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -566,7 +566,7 @@
       "country": "United States",
       "city": "Cleveland",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -608,7 +608,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -652,7 +652,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -694,7 +694,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -738,7 +738,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -780,7 +780,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -824,7 +824,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -866,7 +866,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -959,7 +959,7 @@
       "country": "United States",
       "city": "Cleveland",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1021,7 +1021,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1083,7 +1083,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1114,7 +1114,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1176,7 +1176,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1238,7 +1238,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-05T16:14:37.580Z",
+      "last_verified_at": "2026-10-05T16:25:02.857Z",
       "stale": false,
       "review_method": "automatic"
     }
