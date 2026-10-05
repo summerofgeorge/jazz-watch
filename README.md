@@ -2,6 +2,8 @@
 
 A small static calendar of affirmatively free jazz livestreams, presented by Stringfest Analytics. Plain HTML, CSS and JavaScript; Node.js and pnpm only at build/collection time. The browser's single data store is `dist/events.json`. No API key, database, framework, video storage, or visitor account is required.
 
+Published on GitHub Pages October 5, 2026. Custom domain: **jazzwatch.stringfestanalytics.com**. Build, deployment and health passed on GitHub; DNS is configured. HTTPS certificate provisioning is the remaining launch step. See [deployment status](docs/deployment.md).
+
 ## Local use
 
 Requires Node.js 24.16+ and pnpm 11.19.0.

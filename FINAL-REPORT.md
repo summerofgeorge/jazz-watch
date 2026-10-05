@@ -1,6 +1,6 @@
 # Jazz Watch — delivery report
 
-Local implementation completed October 4, 2026. The public summerofgeorge/jazz-watch repository was created October 5; publication verification is in progress. classical-live was not modified.
+JazzWatch was published on GitHub Pages October 5, 2026. The public repository is [summerofgeorge/jazz-watch](https://github.com/summerofgeorge/jazz-watch). The custom domain is configured; HTTPS certificate provisioning is in progress. classical-live was not modified.
 
 ## Included
 
@@ -15,12 +15,13 @@ The Art Deco styling uses double-line frames, stepped corner details, concentric
 - pnpm check: **60 tests passed, 0 failed**, offline fixtures and network mocks included. Final build succeeded.
 - pnpm test:browser: **28 page/viewport/path audits passed** (seven pages × desktop/mobile × root/project path), with no reported WCAG A/AA axe violations. **Two interaction suites passed**: filters, time zones, URL restoration, evidence disclosures, ICS download, stale/expired data, text injection safety and data-loading errors.
 - Manual visual inspection: desktop and mobile calendar and source directory, plus concert row. Screenshots of all pages are included in docs/qa. Automated accessibility checks do not replace user testing.
-- dist inspection: **13 deploy files; 104,772 bytes**. All local HTML routes/anchors and relative production paths validated; data IDs and evidence checked. No node_modules, test fixtures or research files are deployed.
+- dist inspection: **13 build files; 104,397 bytes** after the final coverage-copy correction. All local HTML routes/anchors and relative production paths validated; data IDs and evidence checked. No node_modules, test fixtures or research files are deployed. The Pages upload action omits the redundant .nojekyll marker because Actions publishes the built files directly.
 - Seed snapshot: **31 listings across seven sources**: Smalls 10, Mezzrow 8, BOP STOP 2, City of Asylum 5, Hancock Institute 2, CU Boulder 3, Kansas 1. All automated sources are healthy; the six manually reviewed events keep their actual check timestamps.
-- Last refresh: October 4, 2026, 5:32:17 p.m. America/New_York. **23 HTTP attempts, 1,496,800 response bytes, 176.623 seconds**. Robots and configured host spacing were enforced. No YouTube requests were made.
+- First hosted refresh: October 5, 2026, 16:14:37 UTC. **21 HTTP attempts and 1,420,713 response bytes**. Robots and configured host spacing were enforced. No YouTube requests were made. The daily workflow saves subsequent verified snapshots automatically.
 - pnpm health: **exit 0**. All configured sources healthy or currently manually verified.
 - Maintenance: automated sources refresh daily once hosted; three manually reviewed sources need rechecking before October 18. No future event is admitted from a past livestream or a public player alone.
-- Browser executable used for local QA: Microsoft Edge via Playwright. Hosted Linux Chromium and the GitHub workflow are pending verification.
+- Hosted verification: [GitHub Actions run 37339281383](https://github.com/summerofgeorge/jazz-watch/actions/runs/37339281383) passed build, deployment and health on Ubuntu 24.04.5, Node 24.21.0 and Chromium 145.0.7632.6. Its **60 tests, 28 layout/accessibility audits and two interaction suites all passed**. The browser suites include ICS downloads.
+- Production checks: the GitHub Pages calendar loaded 31 sets; a BOP STOP search returned two. All 12 public files returned HTTP 200 at the custom domain and matched the final local dist after line-ending normalization. The custom missing-page route returned HTTP 404 with the JazzWatch page. The production desktop layout was visually inspected. The in-app browser's separate download check timed out, so no additional production ICS result is claimed beyond the passing hosted suite.
 
 ## Source evidence
 
@@ -28,9 +29,9 @@ The [official SmallsLIVE livestream policy](https://www.smallslive.com/livestrea
 
 ## Publication status
 
-The user approved the public [summerofgeorge/jazz-watch repository](https://github.com/summerofgeorge/jazz-watch) and **jazzwatch.stringfestanalytics.com**. The repository was created October 5 after GitHub sign-in succeeded. Pages deployment and production verification are in progress.
+The approved public repository and GitHub Pages site are published. Daily refresh is scheduled for 08:17 UTC, with push and manual triggers. The final source-coverage text correction passed build, deploy and health in [run 37340632362](https://github.com/summerofgeorge/jazz-watch/actions/runs/37340632362); it is visible on the production homepage. The delivered snapshot includes that run's October 5, 16:25 UTC refresh.
 
-DNS inspection confirms Bluehost nameservers. After the domain is set in GitHub Pages, the required DNS record is **CNAME jazzwatch → summerofgeorge.github.io**. No DNS record has been changed. Complete sequence and maintenance duties are in docs/deployment.md. No production URL is claimed as verified.
+GitHub Pages has accepted **jazzwatch.stringfestanalytics.com**. Bluehost now has **CNAME jazzwatch → summerofgeorge.github.io**, TTL four hours, confirmed by Google's public DNS. No existing DNS records were changed. HTTP serves the site; GitHub has requested the HTTPS certificate. Enforce HTTPS and final HTTPS verification remain pending certificate issuance. The full sequence and maintenance duties are in docs/deployment.md.
 
 ## Capability limits
 

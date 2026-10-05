@@ -4,11 +4,11 @@ Approved destination: public `summerofgeorge/jazz-watch`, hosted on GitHub Pages
 
 ## Current state
 
-The public [summerofgeorge/jazz-watch repository](https://github.com/summerofgeorge/jazz-watch) was created October 5, 2026 after GitHub sign-in succeeded. Upload, Pages deployment and hosted verification are in progress.
+The public [summerofgeorge/jazz-watch repository](https://github.com/summerofgeorge/jazz-watch) and GitHub Pages site were published October 5, 2026. [The first hosted workflow](https://github.com/summerofgeorge/jazz-watch/actions/runs/37339281383) passed build, deploy and health, including 60 tests, 28 layout/accessibility audits and two interaction suites. All seven HTML pages and the required data/assets respond at the custom domain.
 
-DNS lookup found `ns1.bluehost.com` and `ns2.bluehost.com` as the authoritative servers for stringfestanalytics.com. No CNAME answer for jazzwatch was found. No DNS changes were made.
+GitHub Pages is configured for `jazzwatch.stringfestanalytics.com`. A single CNAME was added in Bluehost: `jazzwatch` to `summerofgeorge.github.io`, TTL four hours. Google's public DNS confirms it. Existing records were not modified. GitHub has requested the TLS certificate; Enforce HTTPS and final HTTPS verification are pending issuance.
 
-## Repository and Pages
+## Recreating the deployment
 
 1. Create `summerofgeorge/jazz-watch` as a public repository. This publishes the source, fixtures and research notes as well as the compiled site; only `dist/` is served as the website.
 2. Push the prepared project to `main`. Do not include `node_modules/`, ignored `work/`, local research captures or credentials.
@@ -16,13 +16,13 @@ DNS lookup found `ns1.bluehost.com` and `ns2.bluehost.com` as the authoritative 
 4. Run the workflow and verify the successful deployment URL. Its scheduled refresh is daily at 08:17 UTC (04:17 EDT / 03:17 EST). The health job runs after deployment so a labeled stale fallback can still be served.
 5. In the repository's Pages settings, set the custom domain to `jazzwatch.stringfestanalytics.com` **before** adding DNS. With a custom Actions workflow, the included `dist/CNAME` documents intent but does not configure the domain by itself.
 
-## Bluehost DNS
+## Configured Bluehost DNS
 
-After GitHub accepts the custom domain, add this one record to stringfestanalytics.com:
+This record is already saved for stringfestanalytics.com:
 
 | Type | Host/name | Value/target | TTL |
 |---|---|---|---|
-| CNAME | jazzwatch | summerofgeorge.github.io | Default |
+| CNAME | jazzwatch | summerofgeorge.github.io | 4 hours |
 
 Do not use a repository path, URL scheme, apex-domain record or wildcard. Leave existing website and mail records unchanged. If a record for this exact name already exists, inspect its current purpose before replacing it.
 
