@@ -2,7 +2,7 @@
 
 A small static calendar of affirmatively free jazz livestreams, presented by Stringfest Analytics. Plain HTML, CSS and JavaScript; Node.js and pnpm only at build/collection time. The browser's single data store is `dist/events.json`. No API key, database, framework, video storage, or visitor account is required.
 
-Published on GitHub Pages October 5, 2026. Custom domain: **jazzwatch.stringfestanalytics.com**. Build, deployment and health passed on GitHub; DNS is configured. HTTPS certificate provisioning is the remaining launch step. See [deployment status](docs/deployment.md).
+Published on GitHub Pages October 5, 2026. Custom domain: **jazzwatch.stringfestanalytics.com**. Build, deployment and health passed on GitHub; DNS is configured. HTTPS and the HTTP-to-HTTPS redirect are verified. See [deployment status](docs/deployment.md).
 
 ## Local use
 
@@ -110,4 +110,4 @@ Google Analytics uses the separate JazzWatch property in the existing Stringfest
 
 ## Reusable skill
 
-The validated personal-skill package is in skills/stringfest-streaming-roundup/. It captures evidence, branding, maintenance, sharing, testing and GitHub Pages practices for future roundups. It contains original branding assets but no live concert data or tracking ID. Invoke it by its SKILL.md path, or copy that folder into your personal Codex skills directory. Installation into the protected personal folder was denied by the local filesystem; the portable package is complete.
+The validated personal-skill package is in skills/stringfest-streaming-roundup/. It captures evidence, branding, maintenance, sharing, testing and GitHub Pages practices for future roundups. It contains original branding assets but no live concert data or tracking ID. Invoke it by its SKILL.md path, or copy that folder into your personal Codex skills directory. The skill was installed and validated at C:/Users/georg/.codex/skills/stringfest-streaming-roundup/. All seven installed files match the packaged source. Invoke $stringfest-streaming-roundup in a future chat; restart/reopen Codex if the skill list has not refreshed.

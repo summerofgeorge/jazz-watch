@@ -6,7 +6,7 @@ Approved destination: public `summerofgeorge/jazz-watch`, hosted on GitHub Pages
 
 The public [summerofgeorge/jazz-watch repository](https://github.com/summerofgeorge/jazz-watch) and GitHub Pages site were published October 5, 2026. [The first hosted workflow](https://github.com/summerofgeorge/jazz-watch/actions/runs/37339281383) passed build, deploy and health, including 60 tests, 28 layout/accessibility audits and two interaction suites. All seven HTML pages and the required data/assets respond at the custom domain.
 
-GitHub Pages is configured for `jazzwatch.stringfestanalytics.com`. A single CNAME was added in Bluehost: `jazzwatch` to `summerofgeorge.github.io`, TTL four hours. Google's public DNS confirms it. Existing records were not modified. GitHub issued the TLS certificate on October 5. HTTPS returns 200 and Enforce HTTPS is enabled. The HTTP redirect is checked again after propagation.
+GitHub Pages is configured for `jazzwatch.stringfestanalytics.com`. A single CNAME was added in Bluehost: `jazzwatch` to `summerofgeorge.github.io`, TTL four hours. Google's public DNS confirms it. Existing records were not modified. GitHub issued the TLS certificate on October 5. HTTPS returns 200 and Enforce HTTPS is enabled. HTTP returns 301 to HTTPS. All 16 public build files match the local dist, including exact logo bytes; the missing-page route returns the custom 404.
 
 ## Recreating the deployment
 
@@ -37,3 +37,7 @@ After propagation, check the CNAME, GitHub's DNS check and certificate status, t
 - Expect occasional parser repairs when a venue redesigns its pages. This release is low-infrastructure, not maintenance-free.
 
 References: [GitHub Pages custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), [Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+## Redesign release
+
+The Stringfest branding, support, methodology, sharing and Google Analytics release passed build, deployment and health in [run 37345789843](https://github.com/summerofgeorge/jazz-watch/actions/runs/37345789843), including 65 unit/fixture tests, 28 layout/accessibility audits, and two browser interaction suites. Source commit d04b2b8f6e46d74f96b932887e33fee433fee3fb; refreshed snapshot commit 5a1120c5256b0c6cc579be329509f22d6da14f52. Production paths were verified October 5 at 17:10 UTC.

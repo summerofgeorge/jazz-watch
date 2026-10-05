@@ -16,3 +16,7 @@ Enhanced measurement: page loads, scrolls and file downloads. Browser-history pa
 The tag uses analytics storage. There is no advertising integration, cross-domain linking, User-ID or Measurement Protocol secret. Review consent behavior if audience requirements change. Do not copy this measurement ID or CNAME into another roundup; create a separate property/stream only when requested.
 
 Unit tests exercise production hostname matching, query removal, advertising settings and duplicate-tag protection. Production tag delivery and report receipt are separate checks; a new stream may take time to show data.
+
+## Verified live receipt
+
+After the October 5 deployment, the live DOM loaded the Google tag with G-B6DSXWT01V. The JazzWatch Realtime overview then showed the Jazz Watch page title and one each of page_view, first_visit and session_start from the verification visit. Installation and receipt are both confirmed. This verification visit contributes to the initial analytics totals; it is not evidence of organic audience demand.
