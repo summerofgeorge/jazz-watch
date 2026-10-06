@@ -1,0 +1,9 @@
+# Social sharing card
+
+`src/social-card-v1.jpg` is the 1200 × 630 JPEG used for Open Graph and X large-image previews. The build copies it to `dist/`. The calendar and the five supporting pages provide their metadata in the initial HTML, so crawlers do not need JavaScript. Calendar filter and event links use this generic Jazz Watch card; it does not depict a listed performance. No homepage-only canonical or `og:url` is imposed on those shared links.
+
+The design adapts Classical Watch’s social-card-v5 layout: Georgia and Arial typography, warm off-white (#EEECE1), brand red (#CF3338), a charcoal (#1F2120) attribution panel, and the unchanged official Stringfest seal. There are no separate decorative chevrons or triangles. The right-hand photo is framed with CSS `object-fit: cover`; it has not been generatively altered.
+
+Photo: [Tenor saxophone, musical instrument](https://pixabay.com/photos/tenor-saxophone-musical-instrument-6624725/), by **EdgarSax**, published September 18, 2021. The source page marks the photo as free for use under the [Pixabay Content License](https://pixabay.com/service/license-summary/), checked October 5, 2026. The published asset incorporates it into this branded composition; the standalone stock photo is not redistributed in this repository. The editable layout references the original Pixabay CDN image.
+
+Edit `docs/social-card-layout.html`, render at 1200 × 630 with device scale factor 1, wait for the images and fonts to load, and save a quality-92 JPEG. The delivered version was rendered in Microsoft Edge on Windows. Keep existing published filenames immutable; use a new versioned filename for future artwork and update the metadata and `scripts/check-dist.mjs` allowlist together. Existing social posts may retain a platform-cached preview until refreshed.
