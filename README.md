@@ -27,16 +27,16 @@ Browser checks: `pnpm exec playwright install --with-deps chromium`, then `pnpm 
 - Sources, coverage/methodology, watching/TV help, About/privacy, Support, and 404 pages. Layouts adapt to desktop and mobile; no decorative triangles or chevrons, invented logos, remote fonts, tracking, or video embeds.
 - Separate active-source and research registries; expiring manual review; automated collection and deployment-ready GitHub workflows.
 
-Seven sources currently contribute verified events across six independent providers:
+Seven sources are configured across six independent providers. Actual coverage varies with current evidence: the October 30 local refresh contains 24 sets from five sources; Hancock has no upcoming events and Mezzrow failed timezone validation. See [the maintenance review](docs/review-2026-10-30.md).
 
 | Source | Maintenance | Scope |
 |---|---|---|
 | Smalls and Mezzrow | Daily automated checks | Shared provider; today/tomorrow, dated broadcast promise and no-charge policy |
 | BOP STOP, Cleveland | Daily automated checks | Current upcoming cards; jazz introduction, dated event, explicit free-stream promise |
 | City of Asylum, Pittsburgh | Daily automated checks | Current concert page, jazz titles, dated free livestream reservations; free registration |
-| Herbie Hancock Institute, Paris | Dated manual review | October 10–11 competition and gala |
-| CU Boulder College of Music | Dated manual review | Three selected jazz concerts; October 30 Grusin performances only |
-| University of Kansas, Lied Center | Dated manual review | October 8 Jazz Ensembles concert |
+| Herbie Hancock Institute, Paris | Dated manual review | Competition completed; no upcoming broadcast verified |
+| CU Boulder College of Music | Dated manual review | October 30, November 5 and 14; Grusin Music Hall only |
+| University of Kansas, Lied Center | Dated manual review | November 20 and 23, December 10; explicitly free online |
 
 The four automated venue records use three independent providers. Manual reviews expire 14 days after their actual check; scheduled builds do not renew them. This is a maintained calendar, not a maintenance-free service: check workflow failures and review manual sources before expiry. Automated adapters fail closed when required page structure changes. Healthy collection removes withdrawn events; failed sources are visibly stale until expiry.
 
@@ -61,7 +61,7 @@ Smalls uses New York wall time even when its text says EST in summer. Printed we
 
 ## Manual review
 
-`data/manual-reviewed.json` contains six events reviewed from official pages on October 4, 2026. Use `docs/manual-review-example.json` as the review envelope. A reviewer must visit every official event and access-policy page, record their identity, actual UTC check time, reviewed scope URL, and a complete replacement array for the source, including removals. Each event must satisfy `normalize()` in `scripts/model.mjs` (see positive fixtures/tests for the field contract). Use `adapter: manual` and `status: reviewed` for reviewed sources (`research` also remains supported). Manual evidence is included only through a valid review.
+`data/manual-reviewed.json` contains the latest attributable source reviews, including empty schedules and exclusion evidence. The October 30, 2026 review admits six upcoming broadcasts across CU Boulder and Kansas; Hancock has none. Use `docs/manual-review-example.json` as the review envelope. A reviewer must visit every official event and access-policy page, record their identity, actual UTC check time, reviewed scope URL, and a complete replacement array for the source, including removals. Each event must satisfy `normalize()` in `scripts/model.mjs` (see positive fixtures/tests for the field contract). Use `adapter: manual` and `status: reviewed` for reviewed sources (`research` also remains supported). Manual evidence is included only through a valid review.
 
 ```sh
 pnpm review import path/to/completed-review.json

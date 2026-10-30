@@ -32,7 +32,7 @@ After propagation, check the CNAME, GitHub's DNS check and certificate status, t
 
 - Review failed GitHub Actions runs. The health job reports source failures and overdue manual reviews without erasing valid fallback data.
 - Daily automated sources: Smalls, Mezzrow (one shared provider), BOP STOP and City of Asylum. Parser fixtures guard required evidence and structural changes. Collection is serialized, robots-aware and capped at 60 actual requests per run.
-- Manually reviewed sources: Hancock Institute, CU Boulder and Kansas. The current six events were checked October 4; review them again before October 18 if continued coverage is wanted. Re-import an empty event array to withdraw a review. Never advance a verification timestamp without rereading the official pages.
+- Manually reviewed sources: Hancock Institute, CU Boulder and Kansas. The current reviews were completed October 30 at 13:01:26 UTC and expire November 13 at that time; the weekly review should run before then. CU Boulder and Kansas each have three admitted broadcasts; Hancock has a verified empty schedule. Re-import a complete replacement array, including removals. Never advance a verification timestamp without rereading the official pages.
 - Old events disappear automatically. Failed sources retain original timestamps and stale labels for at most 14 days. A build alone never renews evidence.
 - Expect occasional parser repairs when a venue redesigns its pages. This release is low-infrastructure, not maintenance-free.
 

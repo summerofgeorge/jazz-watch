@@ -13,7 +13,7 @@ concurrency:
 jobs:
   build:
     if: github.event.repository.private == false
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # Supported by the pinned Playwright 1.58.2 browser dependencies.
     timeout-minutes: 15
     permissions:
       contents: write

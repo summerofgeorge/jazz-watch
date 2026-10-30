@@ -4,93 +4,60 @@
     {
       "source": "hancock",
       "reviewer": "Codex — official-page review",
-      "checked_at": "2026-10-04T21:28:58.988Z",
-      "scope_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
-      "events": [
+      "checked_at": "2026-10-30T13:01:26.055Z",
+      "scope_url": "https://hancockinstitute.org/news/",
+      "evidence": [
         {
-          "title": "International Jazz Vocals Competition · Semifinals",
-          "start": "2026-10-10T11:00:00.000Z",
-          "end": "2026-10-10T15:30:00.000Z",
-          "type": "Vocal jazz",
-          "program": "Semifinalists perform with Carmen Staaf, Ben Williams and Kendrick Scott. Times are local to Paris.",
-          "free": true,
-          "jazz": true,
-          "access": "none",
-          "access_note": "Free online viewing. In-person admission is separate.",
-          "event_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
-          "stream_url": "https://hancockinstitute.org/",
-          "watch_kind": "venue",
-          "evidence": {
-            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
-            "free": "The official source expressly confirms free online viewing for this broadcast.",
-            "stream_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
-            "free_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/"
-          }
+          "url": "https://hancockinstitute.org/news/",
+          "summary": "The current news list contains no announced future free jazz broadcast within the 45-day horizon."
         },
         {
-          "title": "International Jazz Vocals Competition · Finals & All-Star Gala",
-          "start": "2026-10-11T17:30:00.000Z",
-          "end": null,
-          "type": "Vocal jazz",
-          "program": "Competition finals and an All-Star Gala featuring Herbie Hancock and guest artists. Times are local to Paris.",
-          "free": true,
-          "jazz": true,
-          "access": "none",
-          "access_note": "Free online viewing. In-person admission is separate.",
-          "event_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
-          "stream_url": "https://hancockinstitute.org/",
-          "watch_kind": "venue",
-          "evidence": {
-            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
-            "free": "The official source expressly confirms free online viewing for this broadcast.",
-            "stream_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/",
-            "free_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/"
-          }
+          "url": "https://hancockinstitute.org/competition/",
+          "summary": "The competition page confirms that the October 10–11 competition has concluded; its video is now a replay."
         }
-      ]
+      ],
+      "events": []
     },
     {
       "source": "cu-boulder",
       "reviewer": "Codex — official-page review",
-      "checked_at": "2026-10-04T21:28:58.988Z",
-      "scope_url": "https://cupresents.org/show-details/concert-jazz-ensemble-fall-2026-concert",
-      "events": [
+      "checked_at": "2026-10-30T13:01:26.055Z",
+      "scope_url": "https://cupresents.org/jazz",
+      "evidence": [
         {
-          "title": "Concert Jazz Ensemble · Fall Concert",
-          "start": "2026-10-16T01:30:00.000Z",
-          "end": null,
-          "type": "Big band",
-          "program": "The Thompson Jazz Studies Program’s big band. Select Grusin Music Hall.",
-          "free": true,
-          "jazz": true,
-          "access": "none",
-          "access_note": "Free online viewing. In-person admission is separate.",
-          "event_url": "https://cupresents.org/show-details/concert-jazz-ensemble-fall-2026-concert",
-          "stream_url": "https://cupresents.org/livestreaming",
-          "watch_kind": "venue",
-          "evidence": {
-            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
-            "free": "The official source expressly confirms free online viewing for this broadcast.",
-            "stream_url": "https://cupresents.org/show-details/concert-jazz-ensemble-fall-2026-concert",
-            "free_url": "https://cupresents.org/livestreaming"
-          }
+          "url": "https://cupresents.org/jazz",
+          "summary": "Reviewed all six listed events through December 14, 2026 and their individual pages. Removed the completed October 15 concert; no cancellation of the three admitted broadcasts was found."
         },
+        {
+          "url": "https://cupresents.org/show-details/vocal-jazz-ensemble-fall-2026-concert",
+          "summary": "November 12 is at Muse Performance Space and has no event-specific stream announcement; excluded."
+        },
+        {
+          "url": "https://cupresents.org/show-details/graduate-woodwind-quintet-recital-in-residence-peakline-wind-quintet-fall-recital",
+          "summary": "November 8 is a chamber recital with one jazz-influenced work; excluded from this selective jazz-performance scope."
+        },
+        {
+          "url": "https://cupresents.org/show-details/holiday-festival-2026",
+          "summary": "December 4–6 offers paid seats and no affirmative free livestream announcement; excluded."
+        }
+      ],
+      "events": [
         {
           "title": "Thompson Jazz Studies Combos · Grusin Music Hall",
           "start": "2026-10-31T01:30:00.000Z",
-          "end": null,
+          "end": "2026-10-31T04:00:00.000Z",
           "type": "Small ensemble",
-          "program": "Only the Grusin Music Hall performances are streamed; the simultaneous Ensemble Hall concert is excluded.",
+          "program": "Only the Grusin Music Hall concert is streamed. The official running time is 2 hours 30 minutes.",
           "free": true,
           "jazz": true,
           "access": "none",
-          "access_note": "Free online viewing. In-person admission is separate.",
+          "access_note": "Free online viewing. Select Grusin Music Hall.",
           "event_url": "https://cupresents.org/show-details/thompson-jazz-studies-combos-fall-2026-concert-in-grusin-and-ensemble-hall",
           "stream_url": "https://cupresents.org/livestreaming",
           "watch_kind": "venue",
           "evidence": {
-            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
-            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream": "The official event lists 2026-10-30 at 7:30 p.m. in Boulder and links its Live Streaming performance to the university player.",
+            "free": "The linked university viewing page identifies College of Music venue streams as free.",
             "stream_url": "https://cupresents.org/show-details/thompson-jazz-studies-combos-fall-2026-concert-in-grusin-and-ensemble-hall",
             "free_url": "https://cupresents.org/livestreaming"
           }
@@ -100,18 +67,38 @@
           "start": "2026-11-06T02:30:00.000Z",
           "end": null,
           "type": "Latin jazz",
-          "program": "Caribbean and South American music and its ties to jazz. Select Grusin Music Hall.",
+          "program": "Caribbean and South American music and its connections with jazz. Select Grusin Music Hall.",
           "free": true,
           "jazz": true,
           "access": "none",
-          "access_note": "Free online viewing. In-person admission is separate.",
+          "access_note": "Free online viewing. Select Grusin Music Hall.",
           "event_url": "https://cupresents.org/show-details/thompson-latin-jazz-ensemble-fall-2026-concert",
           "stream_url": "https://cupresents.org/livestreaming",
           "watch_kind": "venue",
           "evidence": {
-            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
-            "free": "The official source expressly confirms free online viewing for this broadcast.",
+            "stream": "The official event lists 2026-11-05 at 7:30 p.m. in Boulder and links its Live Streaming performance to the university player.",
+            "free": "The linked university viewing page identifies College of Music venue streams as free.",
             "stream_url": "https://cupresents.org/show-details/thompson-latin-jazz-ensemble-fall-2026-concert",
+            "free_url": "https://cupresents.org/livestreaming"
+          }
+        },
+        {
+          "title": "Jazz Composers Orchestra · Fall Concert",
+          "start": "2026-11-15T02:30:00.000Z",
+          "end": null,
+          "type": "Big band",
+          "program": "CU Boulder College of Music. Select Grusin Music Hall; detailed repertoire has not been announced.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. Select Grusin Music Hall.",
+          "event_url": "https://cupresents.org/show-details/jazz-composers-orchestra-fall-2026-concert",
+          "stream_url": "https://cupresents.org/livestreaming",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The official event lists 2026-11-14 at 7:30 p.m. in Boulder and links its Live Streaming performance to the university player.",
+            "free": "The linked university viewing page identifies College of Music venue streams as free.",
+            "stream_url": "https://cupresents.org/show-details/jazz-composers-orchestra-fall-2026-concert",
             "free_url": "https://cupresents.org/livestreaming"
           }
         }
@@ -120,27 +107,81 @@
     {
       "source": "ku",
       "reviewer": "Codex — official-page review",
-      "checked_at": "2026-10-04T21:28:58.988Z",
-      "scope_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/",
+      "checked_at": "2026-10-30T13:01:26.055Z",
+      "scope_url": "https://lied.ku.edu/events-ku-som/",
+      "evidence": [
+        {
+          "url": "https://lied.ku.edu/events-ku-som/",
+          "summary": "Reviewed the School of Music schedule through December 14 and the three upcoming jazz event pages; each explicitly offers free livestream viewing. Removed the completed October 8 concert."
+        },
+        {
+          "url": "https://lied.ku.edu/event-liedcenter/",
+          "summary": "Also reviewed the Lied Series schedule. November 16–17 Mathis Picard pages offer paid in-person tickets without a broadcast announcement; both excluded."
+        },
+        {
+          "url": "https://lied.ku.edu/live/",
+          "summary": "Confirmed the official live-video viewing destination. Its player alone was not used as evidence that other concerts stream."
+        }
+      ],
       "events": [
         {
-          "title": "KU Jazz Ensembles I, II, III",
-          "start": "2026-10-09T00:30:00.000Z",
+          "title": "KU Jazz Ensemble I with Ellen Rowe",
+          "start": "2026-11-21T01:30:00.000Z",
           "end": null,
           "type": "Big band",
-          "program": "KU School of Music ensembles, live from the Lied Center.",
+          "program": "KU School of Music, live from the Lied Center in Lawrence.",
           "free": true,
           "jazz": true,
           "access": "none",
-          "access_note": "Free online viewing. In-person admission is separate.",
-          "event_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/",
+          "access_note": "Free online viewing. Paid auditorium tickets are separate.",
+          "event_url": "https://lied.ku.edu/event/ku-jazz-ensemble-i-ellen-rowe/",
           "stream_url": "https://lied.ku.edu/live/",
           "watch_kind": "venue",
           "evidence": {
-            "stream": "The official event announcement supplies this date and time and explicitly includes a live online broadcast.",
-            "free": "The official source expressly confirms free online viewing for this broadcast.",
-            "stream_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/",
-            "free_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/"
+            "stream": "The dated official jazz event lists 2026-11-20 at 7:30 p.m. in Lawrence and links to the Lied Center livestream.",
+            "free": "The event-specific viewing link says “Watch FREE livestream”.",
+            "stream_url": "https://lied.ku.edu/event/ku-jazz-ensemble-i-ellen-rowe/",
+            "free_url": "https://lied.ku.edu/event/ku-jazz-ensemble-i-ellen-rowe/"
+          }
+        },
+        {
+          "title": "KU Vocal Jazz",
+          "start": "2026-11-24T01:30:00.000Z",
+          "end": null,
+          "type": "Vocal jazz",
+          "program": "KU School of Music, live from the Lied Center in Lawrence.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. Paid auditorium tickets are separate.",
+          "event_url": "https://lied.ku.edu/event/ku-vocal-jazz-nov23/",
+          "stream_url": "https://lied.ku.edu/live/",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The dated official jazz event lists 2026-11-23 at 7:30 p.m. in Lawrence and links to the Lied Center livestream.",
+            "free": "The event-specific viewing link says “Watch FREE livestream”.",
+            "stream_url": "https://lied.ku.edu/event/ku-vocal-jazz-nov23/",
+            "free_url": "https://lied.ku.edu/event/ku-vocal-jazz-nov23/"
+          }
+        },
+        {
+          "title": "Jazz Vespers with Barnaby Bright",
+          "start": "2026-12-11T01:30:00.000Z",
+          "end": null,
+          "type": "Jazz concert",
+          "program": "KU School of Music, live from the Lied Center in Lawrence.",
+          "free": true,
+          "jazz": true,
+          "access": "none",
+          "access_note": "Free online viewing. Paid auditorium tickets are separate.",
+          "event_url": "https://lied.ku.edu/event/jazz-vespers-barnaby-bright/",
+          "stream_url": "https://lied.ku.edu/live/",
+          "watch_kind": "venue",
+          "evidence": {
+            "stream": "The dated official jazz event lists 2026-12-10 at 7:30 p.m. in Lawrence and links to the Lied Center livestream.",
+            "free": "The event-specific viewing link says “Watch FREE livestream”.",
+            "stream_url": "https://lied.ku.edu/event/jazz-vespers-barnaby-bright/",
+            "free_url": "https://lied.ku.edu/event/jazz-vespers-barnaby-bright/"
           }
         }
       ]

@@ -158,9 +158,9 @@
       "url": "https://hancockinstitute.org/",
       "adapter": "manual",
       "status": "reviewed",
-      "scope": "October 10–11, 2026 competition broadcasts. These dated listings expire unless their evidence is reviewed again within 14 days.",
-      "assessment": "The official announcement confirms worldwide free online viewing of the semifinals and the finals with the All-Star Gala Concert.",
-      "evidence_url": "https://hancockinstitute.org/2026/09/semifinalists-announced-for-2026-herbie-hancock-institute-international-jazz-vocals-competition-october-10-11-in-paris/"
+      "scope": "Manually reviewed official news and competition announcements within 45 days. No upcoming broadcast is currently verified.",
+      "assessment": "The October 10–11 competition has concluded. Replays are excluded from the live calendar.",
+      "evidence_url": "https://hancockinstitute.org/news/"
     },
     {
       "id": "cu-boulder",
@@ -173,9 +173,9 @@
       "url": "https://cupresents.org/livestreaming",
       "adapter": "manual",
       "status": "reviewed",
-      "scope": "Selected jazz concerts with event-specific streaming announcements. The October 30 listing covers Grusin Music Hall only. Evidence requires review within 14 days.",
+      "scope": "Selected jazz performances with event-specific broadcasts. October 30 covers Grusin Music Hall only; evidence expires after 14 days.",
       "assessment": "The College of Music offers free livestreams. The selected official event pages supply dates and explicitly identify live streaming.",
-      "evidence_url": "https://cupresents.org/show-details/concert-jazz-ensemble-fall-2026-concert"
+      "evidence_url": "https://cupresents.org/jazz"
     },
     {
       "id": "ku",
@@ -188,9 +188,9 @@
       "url": "https://lied.ku.edu/live/",
       "adapter": "manual",
       "status": "reviewed",
-      "scope": "The October 8, 2026 Jazz Ensembles concert. The event is individually reviewed; other concerts are not assumed to stream.",
+      "scope": "Individually confirmed jazz broadcasts within 45 days; paid auditorium tickets are separate from free online viewing. Evidence expires after 14 days.",
       "assessment": "The official dated event offers a free livestream separately from paid seats in the auditorium.",
-      "evidence_url": "https://lied.ku.edu/event/ku-jazz-ensembles-2026/"
+      "evidence_url": "https://lied.ku.edu/events-ku-som/"
     },
     {
       "id": "monks",
