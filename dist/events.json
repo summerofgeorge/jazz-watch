@@ -1,47 +1,47 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T15:03:27.918Z",
+  "generated_at": "2026-10-31T14:32:33.346Z",
   "lookahead_days": 45,
   "stale_after_days": 14,
   "scope": "Selective free jazz livestreams; source publishing windows vary.",
   "collection": {
-    "requests": 25,
+    "requests": 21,
     "request_limit": 60,
-    "response_bytes": 1694327,
-    "duration_ms": 177960
+    "response_bytes": 1409338,
+    "duration_ms": 137304
   },
   "sources": [
     {
       "source": "smalls",
       "status": "healthy",
-      "count": 12,
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
-      "requests": 11,
-      "duration_ms": 100540
+      "count": 11,
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
+      "requests": 10,
+      "duration_ms": 90451
     },
     {
       "source": "mezzrow",
       "status": "failed",
       "count": 0,
       "error": "Ambiguous or nonexistent local time",
-      "requests": 6,
-      "duration_ms": 59940
+      "requests": 3,
+      "duration_ms": 29906
     },
     {
       "source": "bop-stop",
       "status": "healthy",
       "count": 1,
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "requests": 6,
-      "duration_ms": 15145
+      "duration_ms": 15128
     },
     {
       "source": "city-of-asylum",
       "status": "healthy",
       "count": 5,
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "requests": 2,
-      "duration_ms": 2334
+      "duration_ms": 1818
     },
     {
       "source": "hancock",
@@ -63,182 +63,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Smalls Afternoon Jam Session Hosted by David Sandman",
-      "start": "2026-10-30T18:00:00.000Z",
-      "end": "2026-10-30T21:15:00.000Z",
-      "type": "Jam session",
-      "artists": [
-        "David Sandman / Guitar",
-        "Eli Naragon / Bass",
-        "Patrick Chan / Drums"
-      ],
-      "instruments": [
-        "Guitar",
-        "Bass",
-        "Drums"
-      ],
-      "program": "David Sandman / Guitar · Eli Naragon / Bass · Patrick Chan / Drums",
-      "set": null,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34043-smalls-afternoon-jam-session-hosted-by-david-sandman/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34043-smalls-afternoon-jam-session-hosted-by-david-sandman/"
-      },
-      "id": "smalls-4a21086e0f1cdd5ea7f9",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Obasi Akoto Steve Kirby Quartet",
-      "start": "2026-10-30T22:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Steve Kirby / Bass",
-        "TK Blue / Alto Sax",
-        "Alon Benjamini / Drums",
-        "Aidan Francia Cotter / Piano"
-      ],
-      "instruments": [
-        "Bass",
-        "Alto Sax",
-        "Drums",
-        "Piano"
-      ],
-      "program": "Steve Kirby / Bass · TK Blue / Alto Sax · Alon Benjamini / Drums · Aidan Francia Cotter / Piano",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34196-obasi-akoto-steve-kirby-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34196-obasi-akoto-steve-kirby-quartet/"
-      },
-      "id": "smalls-eeb75b7c4e7c60c88795",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Obasi Akoto Steve Kirby Quartet",
-      "start": "2026-10-30T23:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Steve Kirby / Bass",
-        "TK Blue / Alto Sax",
-        "Alon Benjamini / Drums",
-        "Aidan Francia Cotter / Piano"
-      ],
-      "instruments": [
-        "Bass",
-        "Alto Sax",
-        "Drums",
-        "Piano"
-      ],
-      "program": "Steve Kirby / Bass · TK Blue / Alto Sax · Alon Benjamini / Drums · Aidan Francia Cotter / Piano",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34196-obasi-akoto-steve-kirby-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34196-obasi-akoto-steve-kirby-quartet/"
-      },
-      "id": "smalls-506c2e9a3a2a154a1146",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Joe Block Quintet",
-      "start": "2026-10-31T01:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Joe Block / Piano",
-        "Noah Halpern / Trumpet",
-        "Morgan Guerin / Tenor Sax",
-        "Samuel Harris / Bass",
-        "Ofri Nehemya / Drums"
-      ],
-      "instruments": [
-        "Piano",
-        "Trumpet",
-        "Tenor Sax",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Joe Block / Piano · Noah Halpern / Trumpet · Morgan Guerin / Tenor Sax · Samuel Harris / Bass · Ofri Nehemya / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34155-joe-block-quintet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34155-joe-block-quintet/"
-      },
-      "id": "smalls-5dabb1de465cd5782466",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
     {
       "title": "Thompson Jazz Studies Combos · Grusin Music Hall",
       "start": "2026-10-31T01:30:00.000Z",
@@ -271,98 +95,6 @@
       "stale": false
     },
     {
-      "title": "Joe Block Quintet",
-      "start": "2026-10-31T02:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Joe Block / Piano",
-        "Noah Halpern / Trumpet",
-        "Morgan Guerin / Tenor Sax",
-        "Samuel Harris / Bass",
-        "Ofri Nehemya / Drums"
-      ],
-      "instruments": [
-        "Piano",
-        "Trumpet",
-        "Tenor Sax",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Joe Block / Piano · Noah Halpern / Trumpet · Morgan Guerin / Tenor Sax · Samuel Harris / Bass · Ofri Nehemya / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34155-joe-block-quintet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34155-joe-block-quintet/"
-      },
-      "id": "smalls-095087efaa0d962886eb",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Ken Fowser Quintet",
-      "start": "2026-10-31T03:55:00.000Z",
-      "end": "2026-10-31T08:00:00.000Z",
-      "type": "Small ensemble",
-      "artists": [
-        "Ken Fowser / Tenor Sax",
-        "Wallace Roney Jr / Trumpet",
-        "Thomas Linger / Piano",
-        "Caleb Tobocman / Bass",
-        "Jacob Smith / Drums"
-      ],
-      "instruments": [
-        "Tenor Sax",
-        "Trumpet",
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Ken Fowser / Tenor Sax · Wallace Roney Jr / Trumpet · Thomas Linger / Piano · Caleb Tobocman / Bass · Jacob Smith / Drums",
-      "set": null,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34116-ken-fowser-quintet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34116-ken-fowser-quintet/"
-      },
-      "id": "smalls-0680571fa887eaaca3d2",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
       "title": "There will be No Afternoon Jam Session",
       "start": "2026-10-31T18:00:00.000Z",
       "end": "2026-10-31T21:15:00.000Z",
@@ -392,7 +124,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -436,7 +168,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -480,7 +212,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -511,7 +243,7 @@
       "country": "United States",
       "city": "Cleveland",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -557,7 +289,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -603,7 +335,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -647,7 +379,231 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Smalls Afternoon Jam Session Hosted by Ryo Sasaki Quartet",
+      "start": "2026-11-01T19:00:00.000Z",
+      "end": "2026-11-01T22:15:00.000Z",
+      "type": "Jam session",
+      "artists": [
+        "Ryo Sasaki / Trumpet",
+        "Steve Ash / Piano",
+        "Tony DePaolis / Bass",
+        "Adam Ray / Drums"
+      ],
+      "instruments": [
+        "Trumpet",
+        "Piano",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Ryo Sasaki / Trumpet · Steve Ash / Piano · Tony DePaolis / Bass · Adam Ray / Drums",
+      "set": null,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34349-smalls-afternoon-jam-session-hosted-by-ryo-sasaki-quartet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34349-smalls-afternoon-jam-session-hosted-by-ryo-sasaki-quartet/"
+      },
+      "id": "smalls-f9a6baa19bc992696be6",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Craig Wuepper Quartet",
+      "start": "2026-11-01T23:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Craig Wuepper / Drums",
+        "Mike DiRubbo / Alto Sax",
+        "Victor Gould / Piano",
+        "John Webber / Bass"
+      ],
+      "instruments": [
+        "Drums",
+        "Alto Sax",
+        "Piano",
+        "Bass"
+      ],
+      "program": "Craig Wuepper / Drums · Mike DiRubbo / Alto Sax · Victor Gould / Piano · John Webber / Bass",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34199-craig-wuepper-quartet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34199-craig-wuepper-quartet/"
+      },
+      "id": "smalls-f402a103972035eaf524",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Craig Wuepper Quartet",
+      "start": "2026-11-02T00:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Craig Wuepper / Drums",
+        "Mike DiRubbo / Alto Sax",
+        "Victor Gould / Piano",
+        "John Webber / Bass"
+      ],
+      "instruments": [
+        "Drums",
+        "Alto Sax",
+        "Piano",
+        "Bass"
+      ],
+      "program": "Craig Wuepper / Drums · Mike DiRubbo / Alto Sax · Victor Gould / Piano · John Webber / Bass",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34199-craig-wuepper-quartet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34199-craig-wuepper-quartet/"
+      },
+      "id": "smalls-d1dabd6e735ee8aa5f18",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Nate Jones Septet",
+      "start": "2026-11-02T02:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Nate Jones / Trombone",
+        "Josh Evans / Trumpet",
+        "Bruce Williams / Alto Sax",
+        "Gustavo Cruz / Tenor Sax",
+        "Davis Whitfield / Piano"
+      ],
+      "instruments": [
+        "Trombone",
+        "Trumpet",
+        "Alto Sax",
+        "Tenor Sax",
+        "Piano"
+      ],
+      "program": "Nate Jones / Trombone · Josh Evans / Trumpet · Bruce Williams / Alto Sax · Gustavo Cruz / Tenor Sax · Davis Whitfield / Piano",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34224-nate-jones-septet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34224-nate-jones-septet/"
+      },
+      "id": "smalls-5b3ead841f25c08e388e",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Nate Jones Septet",
+      "start": "2026-11-02T03:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Nate Jones / Trombone",
+        "Josh Evans / Trumpet",
+        "Bruce Williams / Alto Sax",
+        "Gustavo Cruz / Tenor Sax",
+        "Davis Whitfield / Piano"
+      ],
+      "instruments": [
+        "Trombone",
+        "Trumpet",
+        "Alto Sax",
+        "Tenor Sax",
+        "Piano"
+      ],
+      "program": "Nate Jones / Trombone · Josh Evans / Trumpet · Bruce Williams / Alto Sax · Gustavo Cruz / Tenor Sax · Davis Whitfield / Piano",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34224-nate-jones-septet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34224-nate-jones-septet/"
+      },
+      "id": "smalls-59af69e1fdb9156872e0",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -678,7 +634,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -740,7 +696,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -802,7 +758,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -895,7 +851,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -926,7 +882,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-10-30T15:03:27.918Z",
+      "last_verified_at": "2026-10-31T14:32:33.346Z",
       "stale": false,
       "review_method": "automatic"
     },
