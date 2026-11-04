@@ -1,47 +1,47 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T16:16:01.062Z",
+  "generated_at": "2026-11-04T16:19:48.956Z",
   "lookahead_days": 45,
   "stale_after_days": 14,
   "scope": "Selective free jazz livestreams; source publishing windows vary.",
   "collection": {
     "requests": 21,
     "request_limit": 60,
-    "response_bytes": 1243984,
-    "duration_ms": 138607
+    "response_bytes": 1247243,
+    "duration_ms": 138420
   },
   "sources": [
     {
       "source": "smalls",
       "status": "healthy",
       "count": 10,
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "requests": 9,
-      "duration_ms": 80398
+      "duration_ms": 80547
     },
     {
       "source": "mezzrow",
       "status": "healthy",
       "count": 8,
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "requests": 4,
-      "duration_ms": 40113
+      "duration_ms": 39881
     },
     {
       "source": "bop-stop",
       "status": "healthy",
       "count": 0,
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "requests": 6,
-      "duration_ms": 15113
+      "duration_ms": 15161
     },
     {
       "source": "city-of-asylum",
       "status": "healthy",
       "count": 5,
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "requests": 2,
-      "duration_ms": 2983
+      "duration_ms": 2830
     },
     {
       "source": "hancock",
@@ -63,408 +63,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Dmitri Kolesnik Quartet",
-      "start": "2026-11-03T23:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Dmitri Kolesnik / Bass",
-        "Ivan Polyanskiy / Alto Sax",
-        "Anthony Wonsey / Piano",
-        "Maria Kolesnik / Drums"
-      ],
-      "instruments": [
-        "Bass",
-        "Alto Sax",
-        "Piano",
-        "Drums"
-      ],
-      "program": "Dmitri Kolesnik / Bass · Ivan Polyanskiy / Alto Sax · Anthony Wonsey / Piano · Maria Kolesnik / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34237-dmitri-kolesnik-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34237-dmitri-kolesnik-quartet/"
-      },
-      "id": "mezzrow-75c789339b9dd3c90f79",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Mikey Migliore Quartet",
-      "start": "2026-11-03T23:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Mike Migliore / Bass",
-        "Leo Larratt / Guitar",
-        "Luther S. Allison / Piano",
-        "Michael Camacho / Drums"
-      ],
-      "instruments": [
-        "Bass",
-        "Guitar",
-        "Piano",
-        "Drums"
-      ],
-      "program": "Mike Migliore / Bass · Leo Larratt / Guitar · Luther S. Allison / Piano · Michael Camacho / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34226-mikey-migliore-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34226-mikey-migliore-quartet/"
-      },
-      "id": "smalls-bf28c3c719649deadcbd",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Dmitri Kolesnik Quartet",
-      "start": "2026-11-04T00:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Dmitri Kolesnik / Bass",
-        "Ivan Polyanskiy / Alto Sax",
-        "Anthony Wonsey / Piano",
-        "Maria Kolesnik / Drums"
-      ],
-      "instruments": [
-        "Bass",
-        "Alto Sax",
-        "Piano",
-        "Drums"
-      ],
-      "program": "Dmitri Kolesnik / Bass · Ivan Polyanskiy / Alto Sax · Anthony Wonsey / Piano · Maria Kolesnik / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34237-dmitri-kolesnik-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34237-dmitri-kolesnik-quartet/"
-      },
-      "id": "mezzrow-0f422f719bd6a897f750",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Mikey Migliore Quartet",
-      "start": "2026-11-04T00:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Mike Migliore / Bass",
-        "Leo Larratt / Guitar",
-        "Luther S. Allison / Piano",
-        "Michael Camacho / Drums"
-      ],
-      "instruments": [
-        "Bass",
-        "Guitar",
-        "Piano",
-        "Drums"
-      ],
-      "program": "Mike Migliore / Bass · Leo Larratt / Guitar · Luther S. Allison / Piano · Michael Camacho / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34226-mikey-migliore-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34226-mikey-migliore-quartet/"
-      },
-      "id": "smalls-5c5eea2b04293466f67a",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Lolivone De La Rosa Quartet",
-      "start": "2026-11-04T02:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Lolivone de la Rosa / Guitar",
-        "Ned Goold / Tenor Sax",
-        "Pablo Menares / Bass",
-        "Joel Mateo / Drums"
-      ],
-      "instruments": [
-        "Guitar",
-        "Tenor Sax",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Lolivone de la Rosa / Guitar · Ned Goold / Tenor Sax · Pablo Menares / Bass · Joel Mateo / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34216-lolivone-de-la-rosa-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34216-lolivone-de-la-rosa-quartet/"
-      },
-      "id": "mezzrow-86400508f0202926ed4c",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Daniel Bereket Quintet",
-      "start": "2026-11-04T02:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Daniel Bereket / Trumpet",
-        "Matt Knoegel / Tenor Sax",
-        "Jordan Williams / Piano",
-        "Jason Maximo Clotter / Bass",
-        "Corey Rawls / Drums"
-      ],
-      "instruments": [
-        "Trumpet",
-        "Tenor Sax",
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Daniel Bereket / Trumpet · Matt Knoegel / Tenor Sax · Jordan Williams / Piano · Jason Maximo Clotter / Bass · Corey Rawls / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34227-daniel-bereket-quintet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34227-daniel-bereket-quintet/"
-      },
-      "id": "smalls-34d6b6bf9b76b51cefb0",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Lolivone De La Rosa Quartet",
-      "start": "2026-11-04T03:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Lolivone de la Rosa / Guitar",
-        "Ned Goold / Tenor Sax",
-        "Pablo Menares / Bass",
-        "Joel Mateo / Drums"
-      ],
-      "instruments": [
-        "Guitar",
-        "Tenor Sax",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Lolivone de la Rosa / Guitar · Ned Goold / Tenor Sax · Pablo Menares / Bass · Joel Mateo / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34216-lolivone-de-la-rosa-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34216-lolivone-de-la-rosa-quartet/"
-      },
-      "id": "mezzrow-7cc73b34a6568a0e2519",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Daniel Bereket Quintet",
-      "start": "2026-11-04T03:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Daniel Bereket / Trumpet",
-        "Matt Knoegel / Tenor Sax",
-        "Jordan Williams / Piano",
-        "Jason Maximo Clotter / Bass",
-        "Corey Rawls / Drums"
-      ],
-      "instruments": [
-        "Trumpet",
-        "Tenor Sax",
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Daniel Bereket / Trumpet · Matt Knoegel / Tenor Sax · Jordan Williams / Piano · Jason Maximo Clotter / Bass · Corey Rawls / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34227-daniel-bereket-quintet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34227-daniel-bereket-quintet/"
-      },
-      "id": "smalls-7b29f228fca44a7edadf",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Jam Session Hosted By Kyle Colina Quartet",
-      "start": "2026-11-04T04:55:00.000Z",
-      "end": "2026-11-04T09:00:00.000Z",
-      "type": "Jam session",
-      "artists": [
-        "Kyle Colina / Bass",
-        "Carlos Abadie / Trumpet",
-        "Ilya Lushtak / Guitar",
-        "Ocie Davis / Drums",
-        "Simon Mogul / Tenor Sax"
-      ],
-      "instruments": [
-        "Bass",
-        "Trumpet",
-        "Guitar",
-        "Drums",
-        "Tenor Sax"
-      ],
-      "program": "Kyle Colina / Bass · Carlos Abadie / Trumpet · Ilya Lushtak / Guitar · Ocie Davis / Drums · Simon Mogul / Tenor Sax",
-      "set": null,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34353-jam-session-hosted-by-kyle-colina-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34353-jam-session-hosted-by-kyle-colina-quartet/"
-      },
-      "id": "smalls-281afa2ed5e5173cfa4f",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
     {
       "title": "Simona Premazzi Trio",
       "start": "2026-11-04T23:00:00.000Z",
@@ -503,7 +101,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -547,7 +145,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -589,7 +187,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -633,7 +231,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -675,7 +273,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -719,7 +317,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -761,7 +359,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -805,7 +403,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -851,7 +449,93 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Justin Wert Trio",
+      "start": "2026-11-05T23:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Justin Wert / Guitar",
+        "Bar Filipowicz / Bass",
+        "David Hawkins / Drums"
+      ],
+      "instruments": [
+        "Guitar",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Justin Wert / Guitar · Bar Filipowicz / Bass · David Hawkins / Drums",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34499-justin-wert-trio/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34499-justin-wert-trio/"
+      },
+      "id": "mezzrow-ad29a5b4285b1078ae65",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Ron Vincent Sextet",
+      "start": "2026-11-05T23:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Ron Vincent / Drums",
+        "Matt Garrison / Tenor Sax",
+        "David Brandom / Tenor Sax",
+        "Adam Kolker / Tenor Sax",
+        "Dan Cray / Piano"
+      ],
+      "instruments": [
+        "Drums",
+        "Tenor Sax",
+        "Piano"
+      ],
+      "program": "Ron Vincent / Drums · Matt Garrison / Tenor Sax · David Brandom / Tenor Sax · Adam Kolker / Tenor Sax · Dan Cray / Piano",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34230-ron-vincent-sextet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34230-ron-vincent-sextet/"
+      },
+      "id": "smalls-adcd198754e35116694e",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -882,7 +566,181 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Justin Wert Trio",
+      "start": "2026-11-06T00:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Justin Wert / Guitar",
+        "Bar Filipowicz / Bass",
+        "David Hawkins / Drums"
+      ],
+      "instruments": [
+        "Guitar",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Justin Wert / Guitar · Bar Filipowicz / Bass · David Hawkins / Drums",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34499-justin-wert-trio/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34499-justin-wert-trio/"
+      },
+      "id": "mezzrow-af902ece061e330c0a47",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Ron Vincent Sextet",
+      "start": "2026-11-06T00:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Ron Vincent / Drums",
+        "Matt Garrison / Tenor Sax",
+        "David Brandom / Tenor Sax",
+        "Adam Kolker / Tenor Sax",
+        "Dan Cray / Piano"
+      ],
+      "instruments": [
+        "Drums",
+        "Tenor Sax",
+        "Piano"
+      ],
+      "program": "Ron Vincent / Drums · Matt Garrison / Tenor Sax · David Brandom / Tenor Sax · Adam Kolker / Tenor Sax · Dan Cray / Piano",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34230-ron-vincent-sextet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34230-ron-vincent-sextet/"
+      },
+      "id": "smalls-345a1ca669e13981541d",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Stefan Vasnier Trio",
+      "start": "2026-11-06T02:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Stefan Vasnier / Piano",
+        "Daniel Duke / Bass",
+        "Keith Balla / Drums"
+      ],
+      "instruments": [
+        "Piano",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Stefan Vasnier / Piano · Daniel Duke / Bass · Keith Balla / Drums",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34219-stefan-vasnier-trio/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34219-stefan-vasnier-trio/"
+      },
+      "id": "mezzrow-da66219db05fb111ce2d",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Willerm Delisfort Sextet",
+      "start": "2026-11-06T02:00:00.000Z",
+      "end": null,
+      "type": "Vocal jazz",
+      "artists": [
+        "Willerm Delisfort / Piano",
+        "Tahira Clayton / Vocalist",
+        "Josh Evans / Trumpet",
+        "TBA / Tenor Sax",
+        "Nolan Nwachukwu / Bass"
+      ],
+      "instruments": [
+        "Piano",
+        "Vocalist",
+        "Trumpet",
+        "Tenor Sax",
+        "Bass"
+      ],
+      "program": "Willerm Delisfort / Piano · Tahira Clayton / Vocalist · Josh Evans / Trumpet · TBA / Tenor Sax · Nolan Nwachukwu / Bass",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34231-willerm-delisfort-sextet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34231-willerm-delisfort-sextet/"
+      },
+      "id": "smalls-0cb002812fa7bac04b4e",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -918,6 +776,138 @@
       "stale": false
     },
     {
+      "title": "Stefan Vasnier Trio",
+      "start": "2026-11-06T03:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Stefan Vasnier / Piano",
+        "Daniel Duke / Bass",
+        "Keith Balla / Drums"
+      ],
+      "instruments": [
+        "Piano",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Stefan Vasnier / Piano · Daniel Duke / Bass · Keith Balla / Drums",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34219-stefan-vasnier-trio/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34219-stefan-vasnier-trio/"
+      },
+      "id": "mezzrow-6fabb729ba1395d45b52",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Willerm Delisfort Sextet",
+      "start": "2026-11-06T03:30:00.000Z",
+      "end": null,
+      "type": "Vocal jazz",
+      "artists": [
+        "Willerm Delisfort / Piano",
+        "Tahira Clayton / Vocalist",
+        "Josh Evans / Trumpet",
+        "TBA / Tenor Sax",
+        "Nolan Nwachukwu / Bass"
+      ],
+      "instruments": [
+        "Piano",
+        "Vocalist",
+        "Trumpet",
+        "Tenor Sax",
+        "Bass"
+      ],
+      "program": "Willerm Delisfort / Piano · Tahira Clayton / Vocalist · Josh Evans / Trumpet · TBA / Tenor Sax · Nolan Nwachukwu / Bass",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34231-willerm-delisfort-sextet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34231-willerm-delisfort-sextet/"
+      },
+      "id": "smalls-014640300286e1b92f51",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Jam Session Hosted By Matt Snow",
+      "start": "2026-11-06T04:55:00.000Z",
+      "end": "2026-11-06T09:00:00.000Z",
+      "type": "Jam session",
+      "artists": [
+        "Matt Snow / Bass",
+        "Clay Lyons / Alto Sax",
+        "Yago Vazquez / Piano",
+        "Wayne Smith Jr / Drums"
+      ],
+      "instruments": [
+        "Bass",
+        "Alto Sax",
+        "Piano",
+        "Drums"
+      ],
+      "program": "Matt Snow / Bass · Clay Lyons / Alto Sax · Yago Vazquez / Piano · Wayne Smith Jr / Drums",
+      "set": null,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34358-jam-session-hosted-by-matt-snow/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34358-jam-session-hosted-by-matt-snow/"
+      },
+      "id": "smalls-03c6d412cfd386fabc74",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
       "title": "Thursday Night Jazz: Two of Anything’s New Compositions (with Audience Participation!)",
       "start": "2026-11-13T00:00:00.000Z",
       "end": "2026-11-13T01:30:00.000Z",
@@ -944,7 +934,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1006,7 +996,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1099,7 +1089,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1130,7 +1120,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-03T16:16:01.062Z",
+      "last_verified_at": "2026-11-04T16:19:48.956Z",
       "stale": false,
       "review_method": "automatic"
     },
