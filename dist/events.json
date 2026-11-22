@@ -1,47 +1,47 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T16:09:57.654Z",
+  "generated_at": "2026-11-22T16:17:11.544Z",
   "lookahead_days": 45,
   "stale_after_days": 14,
   "scope": "Selective free jazz livestreams; source publishing windows vary.",
   "collection": {
-    "requests": 25,
+    "requests": 22,
     "request_limit": 60,
-    "response_bytes": 1575453,
-    "duration_ms": 171093
+    "response_bytes": 1337544,
+    "duration_ms": 146981
   },
   "sources": [
     {
       "source": "smalls",
       "status": "healthy",
-      "count": 12,
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "requests": 11,
-      "duration_ms": 100313
+      "count": 11,
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "requests": 10,
+      "duration_ms": 90201
     },
     {
       "source": "mezzrow",
       "status": "healthy",
-      "count": 9,
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "requests": 5,
-      "duration_ms": 50005
+      "count": 8,
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "requests": 4,
+      "duration_ms": 40025
     },
     {
       "source": "bop-stop",
       "status": "healthy",
       "count": 1,
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "requests": 7,
-      "duration_ms": 19148
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "requests": 6,
+      "duration_ms": 15146
     },
     {
       "source": "city-of-asylum",
       "status": "healthy",
       "count": 2,
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "requests": 2,
-      "duration_ms": 1627
+      "duration_ms": 1609
     },
     {
       "source": "hancock",
@@ -63,484 +63,6 @@
     }
   ],
   "events": [
-    {
-      "title": "SMALLS AFTERNOON JAM SESSION HOSTED BY Carol Morgan Quartet",
-      "start": "2026-11-21T19:00:00.000Z",
-      "end": "2026-11-21T22:15:00.000Z",
-      "type": "Jam session",
-      "artists": [
-        "Carol Morgan / Trumpet",
-        "Steve Nelson / Guitar",
-        "Ben Wolstein / Bass",
-        "Steve Little / Drums"
-      ],
-      "instruments": [
-        "Trumpet",
-        "Guitar",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Carol Morgan / Trumpet · Steve Nelson / Guitar · Ben Wolstein / Bass · Steve Little / Drums",
-      "set": null,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34484-smalls-afternoon-jam-session-hosted-by-carol-morgan-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34484-smalls-afternoon-jam-session-hosted-by-carol-morgan-quartet/"
-      },
-      "id": "smalls-cb622661131364d5d642",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Kenny Davis Quartet",
-      "start": "2026-11-21T23:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Kenny Davis / Bass",
-        "Eddie Allen / Trumpet",
-        "Luciano Minetti / Piano",
-        "Jarrett Walser / Drums"
-      ],
-      "instruments": [
-        "Bass",
-        "Trumpet",
-        "Piano",
-        "Drums"
-      ],
-      "program": "Kenny Davis / Bass · Eddie Allen / Trumpet · Luciano Minetti / Piano · Jarrett Walser / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34329-kenny-davis-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34329-kenny-davis-quartet/"
-      },
-      "id": "mezzrow-df7d16991169f8391589",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Valery Ponomarev Quintet",
-      "start": "2026-11-21T23:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Valery Ponomarev / Trumpet",
-        "Chris Hemingway / Alto Sax",
-        "Mamiko Watanabe / Piano",
-        "Dmitri Kolesnik / Bass",
-        "Maria Kolesnik / Drums"
-      ],
-      "instruments": [
-        "Trumpet",
-        "Alto Sax",
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Valery Ponomarev / Trumpet · Chris Hemingway / Alto Sax · Mamiko Watanabe / Piano · Dmitri Kolesnik / Bass · Maria Kolesnik / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34416-valery-ponomarev-quintet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34416-valery-ponomarev-quintet/"
-      },
-      "id": "smalls-795cab67160ee2cf57bf",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Kenny Davis Quartet",
-      "start": "2026-11-22T00:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Kenny Davis / Bass",
-        "Eddie Allen / Trumpet",
-        "Luciano Minetti / Piano",
-        "Jarrett Walser / Drums"
-      ],
-      "instruments": [
-        "Bass",
-        "Trumpet",
-        "Piano",
-        "Drums"
-      ],
-      "program": "Kenny Davis / Bass · Eddie Allen / Trumpet · Luciano Minetti / Piano · Jarrett Walser / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34329-kenny-davis-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34329-kenny-davis-quartet/"
-      },
-      "id": "mezzrow-c902018b12e326612dc7",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Valery Ponomarev Quintet",
-      "start": "2026-11-22T00:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Valery Ponomarev / Trumpet",
-        "Chris Hemingway / Alto Sax",
-        "Mamiko Watanabe / Piano",
-        "Dmitri Kolesnik / Bass",
-        "Maria Kolesnik / Drums"
-      ],
-      "instruments": [
-        "Trumpet",
-        "Alto Sax",
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Valery Ponomarev / Trumpet · Chris Hemingway / Alto Sax · Mamiko Watanabe / Piano · Dmitri Kolesnik / Bass · Maria Kolesnik / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34416-valery-ponomarev-quintet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34416-valery-ponomarev-quintet/"
-      },
-      "id": "smalls-22c17f9ddf6524de1f7c",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Mike Ledonne Trio",
-      "start": "2026-11-22T02:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Mike Ledonne / Piano",
-        "John Webber / Bass",
-        "Willie Jones III / Drums"
-      ],
-      "instruments": [
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Mike Ledonne / Piano · John Webber / Bass · Willie Jones III / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34331-mike-ledonne-trio/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34331-mike-ledonne-trio/"
-      },
-      "id": "mezzrow-9447220beab8d6506a68",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Steve Slagle Quartet",
-      "start": "2026-11-22T02:00:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Steve Slagle / Alto Sax",
-        "Matthew Rotker-Lynn / Guitar",
-        "Peter Brendler / Bass",
-        "Paul Wells / Drums"
-      ],
-      "instruments": [
-        "Alto Sax",
-        "Guitar",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Steve Slagle / Alto Sax · Matthew Rotker-Lynn / Guitar · Peter Brendler / Bass · Paul Wells / Drums",
-      "set": 1,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34418-steve-slagle-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34418-steve-slagle-quartet/"
-      },
-      "id": "smalls-13533b57bda969966c48",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Mike Ledonne Trio",
-      "start": "2026-11-22T03:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Mike Ledonne / Piano",
-        "John Webber / Bass",
-        "Willie Jones III / Drums"
-      ],
-      "instruments": [
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Mike Ledonne / Piano · John Webber / Bass · Willie Jones III / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34331-mike-ledonne-trio/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34331-mike-ledonne-trio/"
-      },
-      "id": "mezzrow-a8dfbf2dde7db1a51262",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Steve Slagle Quartet",
-      "start": "2026-11-22T03:30:00.000Z",
-      "end": null,
-      "type": "Small ensemble",
-      "artists": [
-        "Steve Slagle / Alto Sax",
-        "Matthew Rotker-Lynn / Guitar",
-        "Peter Brendler / Bass",
-        "Paul Wells / Drums"
-      ],
-      "instruments": [
-        "Alto Sax",
-        "Guitar",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Steve Slagle / Alto Sax · Matthew Rotker-Lynn / Guitar · Peter Brendler / Bass · Paul Wells / Drums",
-      "set": 2,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34418-steve-slagle-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34418-steve-slagle-quartet/"
-      },
-      "id": "smalls-d47c5d410b61e8786199",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Round Midnight Solo Piano with Miki Yamanaka",
-      "start": "2026-11-22T04:55:00.000Z",
-      "end": "2026-11-22T06:00:00.000Z",
-      "type": "Small ensemble",
-      "artists": [
-        "Miki Yamanaka / Piano"
-      ],
-      "instruments": [
-        "Piano"
-      ],
-      "program": "Miki Yamanaka / Piano",
-      "set": null,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34498-round-midnight-solo-piano-with-miki-yamanaka/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34498-round-midnight-solo-piano-with-miki-yamanaka/"
-      },
-      "id": "mezzrow-8c80512b9b0d8d0bcd49",
-      "source": "mezzrow",
-      "venue": "Mezzrow",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
-    {
-      "title": "Stacy Dillard Quartet",
-      "start": "2026-11-22T04:55:00.000Z",
-      "end": "2026-11-22T09:00:00.000Z",
-      "type": "Small ensemble",
-      "artists": [
-        "Stacy Dillard / Tenor Sax",
-        "Thomas Linger / Piano",
-        "Raul Reyes / Bass",
-        "Chris Beck / Drums"
-      ],
-      "instruments": [
-        "Tenor Sax",
-        "Piano",
-        "Bass",
-        "Drums"
-      ],
-      "program": "Stacy Dillard / Tenor Sax · Thomas Linger / Piano · Raul Reyes / Bass · Chris Beck / Drums",
-      "set": null,
-      "free": true,
-      "jazz": true,
-      "access": "none",
-      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
-      "event_url": "https://www.smallslive.com/events/34420-stacy-dillard-quartet/",
-      "stream_url": "https://www.smallslive.com/livestream/",
-      "watch_kind": "venue",
-      "evidence": {
-        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
-        "free_url": "https://www.smallslive.com/livestream/",
-        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
-        "stream_url": "https://www.smallslive.com/events/34420-stacy-dillard-quartet/"
-      },
-      "id": "smalls-4b6cb8979e87420e0153",
-      "source": "smalls",
-      "venue": "Smalls Jazz Club",
-      "source_type": "Club",
-      "region": "North America",
-      "country": "United States",
-      "city": "New York",
-      "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
-      "stale": false,
-      "review_method": "automatic"
-    },
     {
       "title": "Smalls Afternoon Jam Session Hosted by Ryo Sasaki Quartet",
       "start": "2026-11-22T19:00:00.000Z",
@@ -581,7 +103,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -625,7 +147,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -669,7 +191,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -713,7 +235,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -757,7 +279,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -770,14 +292,15 @@
         "Vanisha Gould / Vocalist",
         "Chris McCarthy / Piano",
         "Charlie Lincoln / Bass",
-        "Samuel Lincoln / Bass"
+        "Samuel Bolduc / Drums"
       ],
       "instruments": [
         "Vocalist",
         "Piano",
-        "Bass"
+        "Bass",
+        "Drums"
       ],
-      "program": "Vanisha Gould / Vocalist · Chris McCarthy / Piano · Charlie Lincoln / Bass · Samuel Lincoln / Bass",
+      "program": "Vanisha Gould / Vocalist · Chris McCarthy / Piano · Charlie Lincoln / Bass · Samuel Bolduc / Drums",
       "set": 1,
       "free": true,
       "jazz": true,
@@ -800,7 +323,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -844,7 +367,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -857,14 +380,15 @@
         "Vanisha Gould / Vocalist",
         "Chris McCarthy / Piano",
         "Charlie Lincoln / Bass",
-        "Samuel Lincoln / Bass"
+        "Samuel Bolduc / Drums"
       ],
       "instruments": [
         "Vocalist",
         "Piano",
-        "Bass"
+        "Bass",
+        "Drums"
       ],
-      "program": "Vanisha Gould / Vocalist · Chris McCarthy / Piano · Charlie Lincoln / Bass · Samuel Lincoln / Bass",
+      "program": "Vanisha Gould / Vocalist · Chris McCarthy / Piano · Charlie Lincoln / Bass · Samuel Bolduc / Drums",
       "set": 2,
       "free": true,
       "jazz": true,
@@ -887,7 +411,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -931,7 +455,7 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -977,7 +501,395 @@
       "country": "United States",
       "city": "New York",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Alan Broadbent w. Harvie S",
+      "start": "2026-11-23T23:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Alan Broadbent / Piano",
+        "Harvie S / Bass"
+      ],
+      "instruments": [
+        "Piano",
+        "Bass"
+      ],
+      "program": "Alan Broadbent / Piano · Harvie S / Bass",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34333-alan-broadbent-w-harvie-s/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34333-alan-broadbent-w-harvie-s/"
+      },
+      "id": "mezzrow-7048e4c4be8f4dcca832",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Eliot Zigmund Quintet",
+      "start": "2026-11-23T23:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Eliot Zigmund / Drums",
+        "Rick Savage / Trumpet",
+        "Matt Garrison / Tenor Sax",
+        "David Janeway / Piano",
+        "David Kingsnorth / Bass"
+      ],
+      "instruments": [
+        "Drums",
+        "Trumpet",
+        "Tenor Sax",
+        "Piano",
+        "Bass"
+      ],
+      "program": "Eliot Zigmund / Drums · Rick Savage / Trumpet · Matt Garrison / Tenor Sax · David Janeway / Piano · David Kingsnorth / Bass",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34425-eliot-zigmund-quintet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34425-eliot-zigmund-quintet/"
+      },
+      "id": "smalls-c453f403368e8fbaf9a4",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Alan Broadbent w. Harvie S",
+      "start": "2026-11-24T00:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Alan Broadbent / Piano",
+        "Harvie S / Bass"
+      ],
+      "instruments": [
+        "Piano",
+        "Bass"
+      ],
+      "program": "Alan Broadbent / Piano · Harvie S / Bass",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34333-alan-broadbent-w-harvie-s/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34333-alan-broadbent-w-harvie-s/"
+      },
+      "id": "mezzrow-a16012d82515a11bbe01",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Eliot Zigmund Quintet",
+      "start": "2026-11-24T00:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Eliot Zigmund / Drums",
+        "Rick Savage / Trumpet",
+        "Matt Garrison / Tenor Sax",
+        "David Janeway / Piano",
+        "David Kingsnorth / Bass"
+      ],
+      "instruments": [
+        "Drums",
+        "Trumpet",
+        "Tenor Sax",
+        "Piano",
+        "Bass"
+      ],
+      "program": "Eliot Zigmund / Drums · Rick Savage / Trumpet · Matt Garrison / Tenor Sax · David Janeway / Piano · David Kingsnorth / Bass",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34425-eliot-zigmund-quintet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34425-eliot-zigmund-quintet/"
+      },
+      "id": "smalls-14a499f33b7d5db50997",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Pasquale Grasso Trio",
+      "start": "2026-11-24T02:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Pasquale Grasso / Guitar",
+        "Paul Gill / Bass",
+        "Phil Stewart / Drums"
+      ],
+      "instruments": [
+        "Guitar",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Pasquale Grasso / Guitar · Paul Gill / Bass · Phil Stewart / Drums",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34486-pasquale-grasso-trio/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34486-pasquale-grasso-trio/"
+      },
+      "id": "mezzrow-b598908ac510f7b0de9b",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Mike Ledonne Quartet",
+      "start": "2026-11-24T02:00:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Mike Ledonne / Piano",
+        "Alex DeLazzari / Tenor Sax",
+        "Alexander Claffy / Bass",
+        "Mike Clark / Drums"
+      ],
+      "instruments": [
+        "Piano",
+        "Tenor Sax",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Mike Ledonne / Piano · Alex DeLazzari / Tenor Sax · Alexander Claffy / Bass · Mike Clark / Drums",
+      "set": 1,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34426-mike-ledonne-quartet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34426-mike-ledonne-quartet/"
+      },
+      "id": "smalls-2ce43dfb2d001d1cefc6",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Pasquale Grasso Trio",
+      "start": "2026-11-24T03:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Pasquale Grasso / Guitar",
+        "Paul Gill / Bass",
+        "Phil Stewart / Drums"
+      ],
+      "instruments": [
+        "Guitar",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Pasquale Grasso / Guitar · Paul Gill / Bass · Phil Stewart / Drums",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34486-pasquale-grasso-trio/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34486-pasquale-grasso-trio/"
+      },
+      "id": "mezzrow-4aca107b1695c3f1420b",
+      "source": "mezzrow",
+      "venue": "Mezzrow",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Mike Ledonne Quartet",
+      "start": "2026-11-24T03:30:00.000Z",
+      "end": null,
+      "type": "Small ensemble",
+      "artists": [
+        "Mike Ledonne / Piano",
+        "Alex DeLazzari / Tenor Sax",
+        "Alexander Claffy / Bass",
+        "Mike Clark / Drums"
+      ],
+      "instruments": [
+        "Piano",
+        "Tenor Sax",
+        "Bass",
+        "Drums"
+      ],
+      "program": "Mike Ledonne / Piano · Alex DeLazzari / Tenor Sax · Alexander Claffy / Bass · Mike Clark / Drums",
+      "set": 2,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34426-mike-ledonne-quartet/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34426-mike-ledonne-quartet/"
+      },
+      "id": "smalls-5bcfb35a17985bae6904",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
+      "stale": false,
+      "review_method": "automatic"
+    },
+    {
+      "title": "Jam Session Hosted By Mike Boone",
+      "start": "2026-11-24T04:55:00.000Z",
+      "end": "2026-11-24T09:00:00.000Z",
+      "type": "Jam session",
+      "artists": [
+        "Mike Boone / Bass",
+        "James Gibbs / Trumpet",
+        "Sungtaek Choo / Piano",
+        "Cole Steiner / Drums"
+      ],
+      "instruments": [
+        "Bass",
+        "Trumpet",
+        "Piano",
+        "Drums"
+      ],
+      "program": "Mike Boone / Bass · James Gibbs / Trumpet · Sungtaek Choo / Piano · Cole Steiner / Drums",
+      "set": null,
+      "free": true,
+      "jazz": true,
+      "access": "none",
+      "access_note": "Live viewing is free. Paid venue tickets and archive memberships are separate.",
+      "event_url": "https://www.smallslive.com/events/34424-jam-session-hosted-by-mike-boone/",
+      "stream_url": "https://www.smallslive.com/livestream/",
+      "watch_kind": "venue",
+      "evidence": {
+        "free": "The official policy states that live broadcasts from both clubs have no viewing charge.",
+        "free_url": "https://www.smallslive.com/livestream/",
+        "stream": "The dated official event page explicitly announces its live broadcast; the source schedule supplies the advertised set times.",
+        "stream_url": "https://www.smallslive.com/events/34424-jam-session-hosted-by-mike-boone/"
+      },
+      "id": "smalls-2f73de1d1d7eff3fe84d",
+      "source": "smalls",
+      "venue": "Smalls Jazz Club",
+      "source_type": "Club",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "timezone": "America/New_York",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1008,7 +920,7 @@
       "country": "United States",
       "city": "Cleveland",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1039,7 +951,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     },
@@ -1070,7 +982,7 @@
       "country": "United States",
       "city": "Pittsburgh",
       "timezone": "America/New_York",
-      "last_verified_at": "2026-11-21T16:09:57.654Z",
+      "last_verified_at": "2026-11-22T16:17:11.544Z",
       "stale": false,
       "review_method": "automatic"
     }
